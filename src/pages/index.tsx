@@ -1,3 +1,10 @@
+import styles from "../styles/home.module.scss";
+
 export default function Home() {
-  return <h1>Olá mundo</h1>;
+  return (
+    <h1 className={styles.title}>
+      Olá
+      <span> mundo</span>
+    </h1>
+  );
 }
